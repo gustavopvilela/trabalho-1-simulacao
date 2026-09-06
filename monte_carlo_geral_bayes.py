@@ -25,21 +25,27 @@ def monte_carlo_geral_bayes(n, p_a, p_e_a, p_e_a_l):
 
 
 # Resoluções dos exercícios
+# EX1 - Bayes: 0.481203 | Monte Carlo: 0.480452
 ex1_mc = monte_carlo_geral_bayes(1000000, 0.08, 0.96, 0.09)
 ex1_bayes = (0.96 * 0.08) / 0.1596
 
+# EX2 - Bayes: 0.332215 | Monte Carlo: 0.329004
 ex2_mc = monte_carlo_geral_bayes(1000000, 0.005, 0.99, 0.01)
 ex2_bayes = (0.99 * 0.005) / 0.0149
 
+# EX3B - Bayes: 0.473684 | Monte Carlo: 0.477773
 ex3b_mc = monte_carlo_geral_bayes(1000000, 0.60, 0.03, 0.05)
 ex3b_bayes = (0.03 * 0.60) / 0.038
 
+# EX8 - Bayes: 0.981818 | Monte Carlo: 0.981861
 ex8_mc = monte_carlo_geral_bayes(1000000, 0.75, 0.90, 0.05)
 ex8_bayes = (0.90 * 0.75) / 0.6875
 
+# EX9 - Bayes: 0.585366 | Monte Carlo: 0.587893
 ex9_mc = monte_carlo_geral_bayes(1000000, 0.15, 0.40, 0.05)
 ex9_bayes = (0.40 * 0.15) / 0.1025
 
+# EX10 - Bayes: 0.286741 | Monte Carlo: 0.281854
 ex10_mc = monte_carlo_geral_bayes(1000000, 0.008, 0.997, 0.02)
 ex10_bayes = (0.997 * 0.008) / 0.027816
 
